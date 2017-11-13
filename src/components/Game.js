@@ -24,7 +24,7 @@ class Game extends Component {
       cardsFlipped: 0,
       cardImages: this._createCardImages(),
       cardsMatched: 0,
-      firstCardInPair: null,
+      firstCardInPair: {},
       inProgress: false,
       level: 0,
       restart: false,
@@ -61,7 +61,7 @@ class Game extends Component {
       }
     }
 
-    const cardNumbersPerLevel = [4, 12, 18];
+    const cardNumbersPerLevel = [8, 12, 18];
     
     this.setState({
       canFlip: true,
@@ -82,7 +82,50 @@ class Game extends Component {
       selectedImages = selectedImages.concat(selectedImages);
 
       return shuffle(selectedImages);
-   }  
+   }
+
+  _processFlippedCard(selectedCardImage, currentCard) {
+
+    let cardsFlipped = this._increaseCardCount();
+    if (cardsFlipped % 2 === 0) {
+
+      this.setState({canFlip: false});
+
+      // If a match
+      if (this.state.selectedCardImages[this.state.firstCardInPair.props.id]['cardNumber'] === selectedCardImage.cardNumber) {
+        this.state.firstCardInPair.setState({ match: true});
+        currentCard.setState({ match: true });
+
+        // Game finished
+        if (this._increaseMatchCount() === this.state.selectedCardImages.length / 2) {
+          this._finishGame(cardsFlipped);
+        }
+
+        setTimeout(() => { // fade match formatting
+          this.state.firstCardInPair.setState({ match: false});
+          currentCard.setState({ match: false });
+          this.setState({canFlip: true});
+        }, 1200);
+
+      } else {
+
+        setTimeout(() => {
+          this.state.firstCardInPair.setState({ cardVisible: false});
+          currentCard.setState({ cardVisible: false });
+          }, 1300);
+
+        setTimeout(() => {
+          this.setState({canFlip: true});
+          // Reset coords to stop cheating!
+          this.state.firstCardInPair.setState({ imageInlineStyles: {left: 0, top: 0} });
+          currentCard.setState({ imageInlineStyles: {left: 0, top: 0} });
+          }, 1700);
+      }
+
+    } else {
+      this.setState({firstCardInPair: currentCard});
+    }
+  }
 
   _increaseCardCount = () => {
 
@@ -97,7 +140,7 @@ class Game extends Component {
 
   _increaseMatchCount = () => {
 
-    let count = this.state.cardsMatched + 1; // As method called from each half of pair. Needs refactoring
+    let count = this.state.cardsMatched + 1;
 
     this.setState({
       cardsMatched: count
@@ -106,21 +149,12 @@ class Game extends Component {
     return count;
   }
 
-   _retainReferenceToFirstCardInPair = (card) => {
-      this.setState({firstCardInPair: card});
-   }
+   _finishGame = (cardsFlipped) => {
 
-   _setCanFlip = (bool) => {
-      this.setState({canFlip: bool});
-   }
-
-   _finishGame = () => {
-
-      let turns = Math.floor(this.state.cardsFlipped / 2);
+      let turns = Math.floor(cardsFlipped / 2);
       let level = this.state.level;
       let successMessage = 'You finished with a score of';
       let bestScores = this.state.bestScores;
-
       if (bestScores.length) { // Only record best scores if local storage supported
         let bestScore = +bestScores[level];
         if (isNaN(bestScore) || turns < bestScore) {
@@ -144,18 +178,12 @@ class Game extends Component {
       cards.push(<Cards 
         key={i} 
         id={i}
+        canFlip={this.state.canFlip}
         level={this.state.level}
         selectedCardImages={this.state.selectedCardImages} 
         spriteSheetUrl={spriteSheetUrl}
-        increaseCardCount={this._increaseCardCount}
-        increaseMatchCount={this._increaseMatchCount}
-        retainReferenceToFirstCardInPair={this._retainReferenceToFirstCardInPair}
-        firstCardInPair={this.state.firstCardInPair}
-        canFlip={this.state.canFlip}
-        setCanFlip={this._setCanFlip}
-        cardsFlipped={this.state.cardsFlipped}
-        restart={this.state.restart}
-        finishGame={this._finishGame} />);
+        processFlippedCard={this._processFlippedCard.bind(this)}
+        restart={this.state.restart} />);
     };
     return (
       <div>
