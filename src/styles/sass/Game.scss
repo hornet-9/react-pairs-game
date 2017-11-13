@@ -5,16 +5,24 @@ header, footer {
 	text-align: center;
 }
 
-button, p, .scores {
-	font-size: 0.8em;
+button {
+	outline: none;
+	font-family: arcade, sans-serif;
 }
 
 button {
-	outline: none;
+	padding: 8px;
+	width: 30%;
+	border-radius: 5px;
 }
 
 p {
   	transition: opacity 1.2s;
+  	margin: 10px 0;
+}
+
+img {
+	user-select: none;
 }
 
 .difficulties {
@@ -34,7 +42,7 @@ p {
 
 .card-block {
 	width: 25%;
-	margin-bottom: 2%;
+	margin-bottom: 14px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -45,6 +53,7 @@ p {
 	border: 0.5px solid black;
 	height: $card-height;
 	width: $card-width;
+	min-width: $card-width; /*IE*/
 	border-radius: 15px;
 	background-color: lightgrey;
 	cursor: grab;
@@ -60,15 +69,11 @@ p {
 	}
 }
 
-button {
-	padding: 8px;
-	width: 94px;
-	border-radius: 5px;
-}
-
 .App-logo {
   	animation: App-logo-spin infinite 20s linear;
   	width: $card-width;
+  	height: $card-width;
+  	margin-top: 13px;
 	transition: opacity 0.8s;
   .flipped & {
   	opacity: 0;		
@@ -78,10 +83,10 @@ button {
 
 .mask {
 	width: 40px;
-	height: 40px;
+	height: 42px;
 	position: absolute;
 	left: 0px;
-	margin: 27px 11px;
+	margin: 26px 11px;
 	overflow: hidden;
 	.spritesheet {
 		position: absolute;

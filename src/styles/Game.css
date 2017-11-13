@@ -4,21 +4,30 @@ header, footer {
 }
 
 /* line 8, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
-button, p, .scores {
-  font-size: 0.8em;
-}
-
-/* line 12, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 button {
   outline: none;
+  font-family: arcade, sans-serif;
 }
 
-/* line 16, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 13, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+button {
+  padding: 8px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+/* line 19, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 p {
   transition: opacity 1.2s;
+  margin: 10px 0;
 }
 
-/* line 20, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 24, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+img {
+  user-select: none;
+}
+
+/* line 28, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .difficulties {
   display: flex;
   justify-content: space-around;
@@ -26,7 +35,7 @@ p {
   margin: 0 auto 2%;
 }
 
-/* line 27, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 35, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .game {
   width: 60%;
   margin: 0 auto;
@@ -35,70 +44,67 @@ p {
   justify-content: space-around;
 }
 
-/* line 35, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 43, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .card-block {
   width: 25%;
-  margin-bottom: 2%;
+  margin-bottom: 14px;
   display: flex;
   justify-content: space-around;
 }
 
-/* line 42, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 50, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .card {
   display: inline-flex;
   position: relative;
   border: 0.5px solid black;
   height: 94px;
   width: 62px;
+  min-width: 62px;
+  /*IE*/
   border-radius: 15px;
   background-color: lightgrey;
   cursor: grab;
   transition: background-color 0.8s;
 }
 
-/* line 53, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 62, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .card.flipped {
   background-color: white;
   transition: background-color 0.8s;
   cursor: default;
 }
 
-/* line 58, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 67, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .card.match {
   background-color: palegreen;
 }
 
-/* line 63, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
-button {
-  padding: 8px;
-  width: 94px;
-  border-radius: 5px;
-}
-
-/* line 69, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 72, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   width: 62px;
+  height: 62px;
+  margin-top: 13px;
   transition: opacity 0.8s;
 }
 
-/* line 73, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 78, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .flipped .App-logo {
   opacity: 0;
   transition: opacity 0.8s;
 }
 
-/* line 79, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 84, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .mask {
   width: 40px;
-  height: 40px;
+  height: 42px;
   position: absolute;
   left: 0px;
-  margin: 27px 11px;
+  margin: 26px 11px;
   overflow: hidden;
 }
 
-/* line 86, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 91, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .mask .spritesheet {
   position: absolute;
   width: 260px;
@@ -106,7 +112,7 @@ button {
   opacity: 0;
 }
 
-/* line 91, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+/* line 96, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
 .flipped .mask .spritesheet {
   opacity: 1;
   transition: opacity 0.6s;
@@ -122,11 +128,11 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 103, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+  /* line 108, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
   header {
     font-size: 0.8em;
   }
-  /* line 106, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
+  /* line 111, C:/wamp64/www/react-pairs-game/src/styles/sass/Game.scss */
   .game, .difficulties {
     width: 90%;
   }

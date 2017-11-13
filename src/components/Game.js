@@ -35,24 +35,24 @@ class Game extends Component {
 
   _createCardImages() {
 
-    // Create object with each image location from spritesheet
+    // Create an object for each image location from spritesheet
     let cardImages = [];
 
-    cardImages.push(new CardImage(1, -40, -40));
-    cardImages.push(new CardImage(2, -40, -87));
-    cardImages.push(new CardImage(3, -40, -133));
-    cardImages.push(new CardImage(4, -87, -40));
-    cardImages.push(new CardImage(5, -87, -87));
-    cardImages.push(new CardImage(6, -87, -133));
-    cardImages.push(new CardImage(7, -133, -133));
-    cardImages.push(new CardImage(8, -133, -87));
-    cardImages.push(new CardImage(9, -180, -87));
-    cardImages.push(new CardImage(10, -180, -133));
+    cardImages.push(new CardImage(1, -40, -39));
+    cardImages.push(new CardImage(2, -40, -86));
+    cardImages.push(new CardImage(3, -40, -132));
+    cardImages.push(new CardImage(4, -87, -39));
+    cardImages.push(new CardImage(5, -87, -86));
+    cardImages.push(new CardImage(6, -87, -132));
+    cardImages.push(new CardImage(7, -133, -132));
+    cardImages.push(new CardImage(8, -133, -86));
+    cardImages.push(new CardImage(9, -180, -86));
+    cardImages.push(new CardImage(10, -180, -132));
 
     return cardImages;
   }
 
-  _startGame(level) { // Can use regular function or arrow
+  _startGame(level) {
 
     if(this.state.inProgress) {
       let restart = window.confirm("Game already in progress. Do you want to start again?");
@@ -71,6 +71,12 @@ class Game extends Component {
       level: level,
       restart: !this.state.restart,
       selectedCardImages: this._assignImagesToCards(cardNumbersPerLevel[level])
+    }, () => {
+      // only way to prevent ghost image dragging in Firefox
+      let imgs = document.getElementsByTagName('img');
+      for (let i = 0; i < imgs.length; i++) {
+          imgs[i].onmousedown = (e) => e.preventDefault();
+      }
     });
   }
 
@@ -149,32 +155,32 @@ class Game extends Component {
     return count;
   }
 
-   _finishGame = (cardsFlipped) => {
+  _finishGame = (cardsFlipped) => {
 
-      let turns = Math.floor(cardsFlipped / 2);
-      let level = this.state.level;
-      let successMessage = 'You finished with a score of';
-      let bestScores = this.state.bestScores;
-      if (bestScores.length) { // Only record best scores if local storage supported
-        let bestScore = +bestScores[level];
-        if (isNaN(bestScore) || turns < bestScore) {
-          successMessage = 'You got a new best score of';
-          window.localStorage.setItem('pairs_level_' + level, turns);
-          bestScores[level] = turns;
-          this.setState({bestScores: bestScores});
-        } else if (turns === bestScore) {
-          successMessage = 'You finished with an equal-best score of';
-        }
+    let turns = Math.floor(cardsFlipped / 2);
+    let level = this.state.level;
+    let successMessage = 'You finished with a score of';
+    let bestScores = this.state.bestScores;
+    if (bestScores.length) { // Only record best scores if local storage supported
+      let bestScore = +bestScores[level];
+      if (isNaN(bestScore) || turns < bestScore) {
+        successMessage = 'You got a new best score of';
+        window.localStorage.setItem('pairs_level_' + level, turns);
+        bestScores[level] = turns;
+        this.setState({bestScores: bestScores});
+      } else if (turns === bestScore) {
+        successMessage = 'You finished with an equal-best score of';
       }
-      this.setState({inProgress: false, successMessage});
-   }
+    }
+    this.setState({inProgress: false, successMessage});
+  }
 
   render() {
     const cards = [];
     let turns = Math.floor(this.state.cardsFlipped / 2);
     let successMsgStyle = !this.state.inProgress && this.state.cardsMatched ? {opacity: 1} : {opacity: 0};
 
-    for (let i = 0; i < this.state.selectedCardImages.length; i += 1) { // need to factor out unnecessary repetitions
+    for (let i = 0; i < this.state.selectedCardImages.length; i += 1) {
       cards.push(<Cards 
         key={i} 
         id={i}
@@ -198,10 +204,9 @@ class Game extends Component {
           </span>
           <p style={successMsgStyle}>Success! {this.state.successMessage} {turns}! Hit a button to play again.</p>
         </header>
-        <section className="game">{cards}
-        </section>
+        <section className="game">{cards}</section>
         <footer>
-          {this.state.inProgress && <h4>Turns taken: {turns}</h4>}
+          {this.state.inProgress && <p>Turns taken: {turns}</p>}
         </footer>
       </div>
     );

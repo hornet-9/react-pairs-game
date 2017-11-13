@@ -1,5 +1,10 @@
+@font-face {
+    font-family: arcade;
+    src: url('fonts/ARCADECLASSIC.TTF') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: arcade, sans-serif;
 }

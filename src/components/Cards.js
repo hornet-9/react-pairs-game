@@ -4,6 +4,7 @@ import logo from '../assets/logo.svg';
 class Cards extends Component {
 
   constructor() {
+
     super();
     this.state = {
       cardVisible: false,
@@ -27,6 +28,7 @@ class Cards extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
+
     if (nextProps.restart !== this.props.restart) {
       this.setState({cardVisible: false});
     }
