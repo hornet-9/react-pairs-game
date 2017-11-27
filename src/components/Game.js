@@ -157,10 +157,10 @@ class Game extends Component {
 
   _finishGame = (cardsFlipped) => {
 
-    let turns = Math.floor(cardsFlipped / 2);
-    let level = this.state.level;
-    let successMessage = 'You finished with a score of';
-    let bestScores = this.state.bestScores;
+    let turns = Math.floor(cardsFlipped / 2),
+        level = this.state.level,
+        successMessage = 'You finished with a score of',
+        bestScores = this.state.bestScores;
     if (bestScores.length) { // Only record best scores if local storage supported
       let bestScore = +bestScores[level];
       if (isNaN(bestScore) || turns < bestScore) {
@@ -176,9 +176,9 @@ class Game extends Component {
   }
 
   render() {
-    const cards = [];
-    let turns = Math.floor(this.state.cardsFlipped / 2);
-    let successMsgStyle = !this.state.inProgress && this.state.cardsMatched ? {opacity: 1} : {opacity: 0};
+    const cards = [],
+        turns = Math.floor(this.state.cardsFlipped / 2),
+        successMsgStyle = !this.state.inProgress && this.state.cardsMatched ? {opacity: 1} : {opacity: 0};
 
     for (let i = 0; i < this.state.selectedCardImages.length; i += 1) {
       cards.push(<Cards 

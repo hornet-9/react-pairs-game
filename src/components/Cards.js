@@ -36,12 +36,11 @@ class Cards extends Component {
 
   render() {
 
-    let level = this.props.level;
-    let cardBlockWidth = level === 2 ? 16 : level === 1 ? 21 : 25;
-
-    let cardBlockStyle = {
-      width: cardBlockWidth + '%'
-    }
+    let level = this.props.level,
+        cardBlockWidth = level === 2 ? 16 : level === 1 ? 21 : 25,
+        cardBlockStyle = {
+          width: cardBlockWidth + '%'
+        }
 
     return (
       <div className="card-block" style={cardBlockStyle}>
