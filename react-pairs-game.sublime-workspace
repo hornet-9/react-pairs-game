@@ -1,0 +1,878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ca",
+				"cardBlockWidth"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"best",
+				"bestScores"
+			],
+			[
+				"par",
+				"pairs_level_0"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"car",
+				"cardImages"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"_",
+				"_flipCard"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"users",
+				"featured_users"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"employee",
+				"employee_id"
+			],
+			[
+				"w",
+				"where_clause"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/Game.js",
+			"settings":
+			{
+				"buffer_size": 6935,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Cards.js",
+			"settings":
+			{
+				"buffer_size": 1595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 980.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 1030.0
+	},
+	"console":
+	{
+		"height": 375.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/react-pairs-game",
+		"/C/wamp64/www/react-pairs-game/build"
+	],
+	"file_history":
+	[
+		"/C/Users/benkh/Desktop/TODO before Thurs 1230",
+		"/C/wamp64/www/react-pairs-game/src/styles/sass/Game.scss",
+		"/C/wamp64/www/react-pairs-game/src/index.js",
+		"/C/wamp64/www/react-pairs-game/public/index.html",
+		"/C/wamp64/www/react-pairs-game/procfile",
+		"/C/wamp64/www/react-pairs-game/package.json",
+		"/C/wamp64/www/angularjs-movies/procfile",
+		"/C/wamp64/www/react-pairs-game/src/index.css",
+		"/C/wamp64/www/react-pairs-game/react-pairs-game.sublime-project",
+		"/C/wamp64/www/react-pairs-game/src/styles/Game.css",
+		"/C/Users/benkh/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/C/wamp64/www/react-pairs-game/src/components/Start.js",
+		"/C/Users/benkh/AppData/Roaming/npm/node_modules/eslint/node_modules/debug/.eslintrc",
+		"/C/wamp64/www/react-pairs-game/.gitignore",
+		"/C/wamp64/www/react-pairs-game/node_modules/eslint/CHANGELOG.md",
+		"/C/Users/benkh/AppData/Roaming/Sublime Text 3/Packages/ESLint/linter.js",
+		"/C/wamp64/www/react-pairs-game/src/components/Cards.js",
+		"/C/wamp64/www/react-pairs-game/.TODO",
+		"/C/wamp64/www/react-pairs-game/src/utils/cardImage.js",
+		"/C/wamp64/www/react-pairs-game/node_modules/lodash/sampleSize.js",
+		"/C/wamp64/www/react-pairs-game/src/assets/Star_Wars - Copy.svg",
+		"/C/wamp64/www/react-pairs-game/src/Game.js",
+		"/C/wamp64/www/react-pairs-game/src/Game.test.js",
+		"/C/wamp64/www/react-pairs-game/src/Game.css",
+		"/C/wamp64/www/react-metronome/.gitignore",
+		"/C/wamp64/www/react-metronome/src/index.js",
+		"/C/wamp64/www/react-metronome/src/Metronome.css",
+		"/C/wamp64/www/react-metronome/src/Metronome.js",
+		"/C/wamp64/www/react-pairs-game/src/App.css",
+		"/C/Users/benkh/Desktop/Amazon.co.uk - Online Return Center.html",
+		"/C/wamp64/www/react-metronome/node_modules/jsdom/lib/jsdom/browser/Window.js",
+		"/C/Users/benkh/AppData/Roaming/Sublime Text 3/Packages/jsfmt/jsfmt.sublime-settings",
+		"/C/wamp64/www/nopaymba/.TODO",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-index.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/css/sass/main.sass",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-curriculum.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/npm-profiles/npm-profiles.php",
+		"/C/Users/benkh/Desktop/npm backup.sql",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/footer.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/css/main.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-noheader.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/npm-profiles.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/shortcodes/search-form.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/sass/style.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/lib/magnific-popup/src/css/main.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Users.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Admin.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/members/single/profile/edit.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-papersheet.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-portfolio.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/functions.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/members/single/profile/profile-loop.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/admin/edit-texts.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/admin/edit-texts.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/css/sass/_extra.sass",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-twocolumns.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-media.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-papaersheet.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/css/main.sass",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/css/sass/_extra.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/newsletter-book.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/style.css",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/members/single/home.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/newsletter.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-courses.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Login.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/register-form.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/shortcodes/latest-users.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/category.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-fullwidth.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/category-media.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Shortcodes.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/shortcodes/featured-users.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/sass/_slider.scss",
+		"/C/Users/benkh/Desktop/template-index.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/slider-quote.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/members/single/member-header.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/shortcodes/search-results.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/bp-custom.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/cpt.skill-set.view.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/sidebar.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/login-form.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/template-login.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/lostpassword-form.php",
+		"/C/wamp64/www/nopaymba/readme.html",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/sass/_popup.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/stXyle.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/.sassbuilder-config",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/.sass-cache/6455dd29c719bb56a4b53b02a7d2ef4b42661f6f/stXyle.scssc",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/styles/style.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/style.css",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/.sassbuilder-config.json",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/.sassbuilder-config.json",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/_popup.scss",
+		"/C/Users/benkh/AppData/Roaming/Sublime Text 3/Installed Packages/SassBuilder.sublime-package",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/.sassbuilder-config",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/members/register.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/_slider.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/cpt.certificate.view.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/styles/style.scss",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/npm-buddypress/register.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/buddypress/bp-themes/bp-default/registration/register.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Files.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_Menus.php",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/templates/shortcodes/mailchimp-signup-horizontal.phtml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/js/edit.js",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/styles/bloom-popup.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/blog.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/pop-up.php",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/styles/bloom-popup-css.css",
+		"/C/wamp64/www/nopaymba/wp-content/themes/nopaymba-theme/pop-up.html",
+		"/C/Users/benkh/Downloads/no-paymba.wordpress.2017-10-03.xml",
+		"/C/wamp64/www/nopaymba/wp-content/plugins/nopaymba-plugin-npm-profiles/classes/NPM_File_Conversion.php",
+		"/C/wamp64/bin/apache/apache2.4.23/bin/php.ini",
+		"/C/wamp64/www/nopaymbaold/wp-content/plugins/elegantbuilder/style.css",
+		"/C/wamp64/www/nopaymbaold/wp-config.php",
+		"/C/wamp64/www/nopaymbaold/.htaccess",
+		"/C/wamp64/www/nopaymbaold/index.php",
+		"/C/wamp64/www/nopaymbaold/.fw-config.php",
+		"/C/Users/benkh/Desktop/20170904_access.log",
+		"/C/Users/benkh/AppData/Local/Temp/Temp1_NoPayMBA-090217-backup.zip/backup.sql",
+		"/C/Users/benkh/Desktop/20170904_slow_error.log",
+		"/C/Users/benkh/Desktop/20170904_php_server.log",
+		"/C/Users/benkh/Desktop/20170904_php_error.log",
+		"/C/wamp64/bin/apache/apache2.4.23/conf/extra/httpd-vhosts.conf",
+		"/C/wamp64/www/nopaymba/wp-content/themes/Divi-child/.gitignore",
+		"/C/wamp64/www/nopaymba/wp-content/themes/Divi-child/classes/Main.php",
+		"/C/wamp64/www/Divi-child/classes/Main.php"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 260.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\react-pairs-game,-*/node_modules",
+			"C:\\wamp64\\www\\react-pairs-game,-*/node_modules/*",
+			"C:\\wamp64\\www\\react-pairs-game\\src",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles,-*/styles/*",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles\\templates",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles\\styles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\themes\\nopaymba-theme",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\buddypress",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\nopaymba",
+			"C:\\wamp64\\www\\nopaymba\\wp-content\\plugins\\nopaymba-plugin-npm-profiles",
+			"C:\\wamp64\\www\\maspresente\\components\\com_quix",
+			"C:\\wamp64\\www\\maspresente",
+			"C:\\wamp64\\www\\propermar\\models",
+			"C:\\wamp64\\www\\propermar\\views",
+			"C:\\wamp64\\www\\propermar\\controllers",
+			"C:\\wamp64\\www\\propermar\\views",
+			"C:\\wamp64\\www\\propermar,-vendor",
+			"C:\\wamp64\\www\\propermar\\views\\user\\admin",
+			"C:\\wamp64\\www\\propermar\\models",
+			"C:\\wamp64\\www\\propermar\\controllers",
+			"C:\\wamp64\\www\\propermar",
+			"C:\\wamp64\\www\\propermar\\views",
+			"C:\\wamp64\\www\\propermar\\controllers",
+			"C:\\wamp64\\www\\propermar",
+			"C:\\wamp64\\www\\propermar\\controllers",
+			"C:\\wamp64\\www\\propermar",
+			"C:\\wamp64\\www\\propermar,-vendor",
+			"C:\\wamp64\\www\\propermar\\controllers",
+			"C:\\wamp64\\www\\propermar\\views",
+			"C:\\wamp64\\www\\propermar,-vendor/",
+			"C:\\wamp64\\www\\propermar\\views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"restart",
+			"bestScores",
+			"_finishGame",
+			"number",
+			"spriteSheetUrl",
+			" onClick={this._flipCard.bind(this)}",
+			"storage",
+			"const",
+			"bestScores",
+			"successMsgStyle",
+			"turns",
+			"favicon",
+			";\n    let ",
+			"<title>",
+			"ReactDOM",
+			"h4",
+			"-40)",
+			"-87)",
+			"-133)",
+			"match",
+			"card-width",
+			"card-height",
+			" onMouseDown=\"return false\"",
+			"onmousedown",
+			"draggable=\"false\" ",
+			"this._setCanFlip(",
+			"firstCardInPair.id",
+			"selectedCardImages",
+			"this.selectedCardImages",
+			"_increaseCardCount",
+			"this.firstCardInPair",
+			"firstCardInPair",
+			"this.setCanFlip",
+			"setCanFlip",
+			"firstCardInPair",
+			"props.firstCardInPair",
+			"props.selectedCardImages",
+			"props.setCanFlip",
+			"setCanFlip",
+			"_flipCard",
+			"pro",
+			"spriteSheetUrl",
+			"selectedCardImages",
+			"Game",
+			"Cards",
+			"\\",
+			"nsition-property",
+			"_increaseMatchCount",
+			"cardsMatched",
+			"var",
+			"#",
+			"reset",
+			"window",
+			"let s",
+			"== ",
+			"==",
+			"' - '",
+			" - ",
+			"none",
+			"y-content : spac",
+			"h3",
+			"h1",
+			"level",
+			"pt",
+			"1500",
+			"1s",
+			"this.state.",
+			"bestScores",
+			"'hard'",
+			"'medium'",
+			"level0",
+			"'easy'",
+			"Easy",
+			"easy",
+			"secsCardsVisible",
+			"p>",
+			"cardsFlipped",
+			"cardsNum",
+			"Flipped",
+			"Card",
+			"true",
+			"false",
+			"cardVisible",
+			"hidd",
+			"null",
+			"1.5",
+			"40",
+			"_flipCard",
+			"selectedCardImage",
+			"cardImage",
+			"firstCardInPair",
+			"y",
+			"x",
+			"sampleSize",
+			"level",
+			"_chooseLevel",
+			"firstCardInPair",
+			"CantFlip",
+			"cantFlip",
+			"y 1s",
+			"-property",
+			"spriteSheetUrl1",
+			"this.",
+			"App-logo",
+			"spriteSheet",
+			"300",
+			"this.height",
+			"this.width",
+			"that",
+			"retainReferenceToFlippedCards",
+			"increaseCardCount",
+			" - 1",
+			"transition-property: opacity;\n    transition-duration: 1s;",
+			"1.5s",
+			"display",
+			"background-color",
+			"cardsVisible",
+			"span",
+			"div",
+			"Game",
+			" =",
+			"span",
+			"gameInProgress",
+			"(",
+			"section",
+			"App",
+			"\"",
+			"_startStop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/Game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/Cards.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 276.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 53.0
+	},
+	"input":
+	{
+		"height": 94.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-pairs-game.sublime-project",
+	"replace":
+	{
+		"height": 106.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sample",
+				"node_modules\\lodash\\sampleSize.js"
+			],
+			[
+				"main.scss",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\lib\\magnific-popup\\src\\css\\main.scss"
+			],
+			[
+				"home.php",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\templates\\npm-buddypress\\members\\single\\home.php"
+			],
+			[
+				"featured-pr",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\templates\\shortcodes\\featured-users.phtml"
+			],
+			[
+				"cpt.skill-set.view.phtml",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\templates\\cpt.skill-set.view.phtml"
+			],
+			[
+				".html",
+				"readme.html"
+			],
+			[
+				"login-form",
+				"wp-content\\themes\\nopaymba-theme\\login-form.php"
+			],
+			[
+				"stx",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\styles\\stXyle.scss"
+			],
+			[
+				"stxyle.css",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\styles\\.sass-cache\\6455dd29c719bb56a4b53b02a7d2ef4b42661f6f\\stXyle.scssc"
+			],
+			[
+				"style.css",
+				"wp-content\\themes\\nopaymba-theme\\styles\\style.css"
+			],
+			[
+				"plugins/nopaymba-plugin-npm-profiles/styles/style.scss",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\styles\\style.scss"
+			],
+			[
+				"shortcodes/mailchimp-signup-horizontal.phtml",
+				"wp-content\\plugins\\nopaymba-plugin-npm-profiles\\templates\\shortcodes\\mailchimp-signup-horizontal.phtml"
+			],
+			[
+				"shup",
+				"models\\ShipUser.php"
+			],
+			[
+				"admincontr",
+				"controllers\\AdminController.php"
+			],
+			[
+				"user",
+				"models\\User.php"
+			],
+			[
+				"imeline",
+				"views\\site\\timeline.php"
+			],
+			[
+				"shipuser",
+				"controllers\\ShipUserController.php"
+			],
+			[
+				"user.php",
+				"models\\User.php"
+			],
+			[
+				"mail/",
+				"vendor\\dektrium\\yii2-user\\views\\mail\\welcome.php"
+			],
+			[
+				"useremplo",
+				"models\\UserEmploymentStatus.php"
+			],
+			[
+				"adminco",
+				"controllers\\AdminController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1250.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp64\\www\\react-jest-pairs\\pairs.sublime-project"
+			],
+			[
+				"pro",
+				"C:\\wamp64\\www\\propermar\\propermar.sublime-project"
+			]
+		],
+		"width": 950.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"29":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"38":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 487.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

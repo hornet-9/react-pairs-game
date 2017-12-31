@@ -1,19 +1,44 @@
 {
-  "name": "react-pairs-game",
+  "name": "react-jest-pairs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "lodash": "^4.17.4",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-responsive-spritesheet": "^2.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --verbose",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    },
+    "plugins": [
+      "react",
+      "jest"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:jest/recommended"
+    ],
+    "rules": {
+      "react/prop-types": 0
+    }
+  }
 }

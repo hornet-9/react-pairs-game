@@ -1,0 +1,129 @@
+$card-height: 94px;
+$card-width: 62px;
+
+@font-face {
+    font-family: arcade;
+    src: url('../fonts/ARCADECLASSIC.TTF') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arcade, sans-serif;
+}
+
+header, footer {
+	text-align: center;
+}
+
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 16px;
+}
+
+button {
+	outline: none;
+	font-family: arcade, sans-serif;
+	padding: 8px;
+	width: 30%;
+	border-radius: 5px;
+}
+
+p {
+  	transition: opacity 1.2s;
+  	margin: 10px 0;
+}
+
+img {
+	user-select: none;
+}
+
+.difficulties {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto 2%;
+}
+
+.game {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card-block {
+	width: 25%;
+	margin-bottom: 14px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	display: inline-flex;
+	position: relative;
+	border: 0.5px solid black;
+	height: $card-height;
+	width: $card-width;
+	min-width: $card-width; /*IE*/
+	border-radius: 15px;
+	background-color: lightgrey;
+	cursor: grab;
+ 	transition: background-color 0.8s;
+
+	&.flipped {
+		background-color: white;
+		transition: background-color 0.8s;
+    	cursor: default;
+	}
+	&.match {
+		background-color: palegreen;
+	}
+}
+
+.App-logo {
+  	animation: App-logo-spin infinite 20s linear;
+  	width: $card-width;
+  	height: $card-width;
+  	margin-top: 13px;
+	transition: opacity 0.8s;
+  .flipped & {
+  	opacity: 0;		
+  	transition: opacity 0.8s;
+  }
+}
+
+.mask {
+	width: 40px;
+	height: 42px;
+	position: absolute;
+	left: 0px;
+	margin: 26px 11px;
+	overflow: hidden;
+	.spritesheet {
+		position: absolute;
+	  	width: 260px;
+		transition: opacity 0.6s;
+	  	opacity: 0;		
+	  .flipped & {
+	  	opacity: 1;		
+	  	transition: opacity 0.6s;
+	  }
+	}
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		font-size: 0.8em;
+	}
+	.game, .difficulties {
+		width: 90%;
+	}
+}

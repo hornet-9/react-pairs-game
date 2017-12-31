@@ -161,6 +161,7 @@ class Game extends Component {
         level = this.state.level,
         successMessage = 'You finished with a score of',
         bestScores = this.state.bestScores;
+
     if (bestScores.length) { // Only record best scores if local storage supported
       let bestScore = +bestScores[level];
       if (isNaN(bestScore) || turns < bestScore) {
@@ -186,7 +187,7 @@ class Game extends Component {
         id={i}
         canFlip={this.state.canFlip}
         level={this.state.level}
-        selectedCardImages={this.state.selectedCardImages} 
+        selectedCardImages={this.state.selectedCardImages}
         spriteSheetUrl={spriteSheetUrl}
         processFlippedCard={this._processFlippedCard.bind(this)}
         restart={this.state.restart} />);
@@ -202,7 +203,7 @@ class Game extends Component {
             <button onClick={this._startGame.bind(this, 1)}>Mediumest</button>
             <button onClick={this._startGame.bind(this, 2)}>Hardest</button>
           </span>
-          <p style={successMsgStyle}>Success! {this.state.successMessage} {turns}! Hit a button to play again.</p>
+          <p className="success-text" style={successMsgStyle}>Success! {this.state.successMessage} {turns}! Hit a button to play again.</p>
         </header>
         <section className="game">{cards}</section>
         <footer>
