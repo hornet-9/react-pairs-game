@@ -112,29 +112,19 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/Game.js",
+			"file": "src/components/App.js",
 			"settings":
 			{
-				"buffer_size": 6935,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 450,
+				"buffer_size": 8042,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/Cards.js",
+			"file": "src/tests/App.test.js",
 			"settings":
 			{
-				"buffer_size": 1595,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 5846,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -207,10 +197,17 @@
 	"expanded_folders":
 	[
 		"/C/wamp64/www/react-pairs-game",
-		"/C/wamp64/www/react-pairs-game/build"
+		"/C/wamp64/www/react-pairs-game/src",
+		"/C/wamp64/www/react-pairs-game/src/components",
+		"/C/wamp64/www/react-pairs-game/src/styles",
+		"/C/wamp64/www/react-pairs-game/src/styles/sass",
+		"/C/wamp64/www/react-pairs-game/src/tests"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/react-pairs-game/package-lock.json",
+		"/C/wamp64/www/react-pairs-game/src/components/Cards.js",
+		"/C/wamp64/www/react-pairs-game/src/components/Game.js",
 		"/C/Users/benkh/Desktop/TODO before Thurs 1230",
 		"/C/wamp64/www/react-pairs-game/src/styles/sass/Game.scss",
 		"/C/wamp64/www/react-pairs-game/src/index.js",
@@ -227,7 +224,6 @@
 		"/C/wamp64/www/react-pairs-game/.gitignore",
 		"/C/wamp64/www/react-pairs-game/node_modules/eslint/CHANGELOG.md",
 		"/C/Users/benkh/AppData/Roaming/Sublime Text 3/Packages/ESLint/linter.js",
-		"/C/wamp64/www/react-pairs-game/src/components/Cards.js",
 		"/C/wamp64/www/react-pairs-game/.TODO",
 		"/C/wamp64/www/react-pairs-game/src/utils/cardImage.js",
 		"/C/wamp64/www/react-pairs-game/node_modules/lodash/sampleSize.js",
@@ -336,9 +332,7 @@
 		"/C/Users/benkh/Desktop/20170904_php_server.log",
 		"/C/Users/benkh/Desktop/20170904_php_error.log",
 		"/C/wamp64/bin/apache/apache2.4.23/conf/extra/httpd-vhosts.conf",
-		"/C/wamp64/www/nopaymba/wp-content/themes/Divi-child/.gitignore",
-		"/C/wamp64/www/nopaymba/wp-content/themes/Divi-child/classes/Main.php",
-		"/C/wamp64/www/Divi-child/classes/Main.php"
+		"/C/wamp64/www/nopaymba/wp-content/themes/Divi-child/.gitignore"
 	],
 	"find":
 	{
@@ -349,6 +343,8 @@
 		"height": 260.0,
 		"where_history":
 		[
+			"C:\\wamp64\\www\\react-pairs-game\\src",
+			"C:\\wamp64\\www\\react-pairs-game\\src\\components",
 			"C:\\wamp64\\www\\react-pairs-game,-*/node_modules",
 			"C:\\wamp64\\www\\react-pairs-game,-*/node_modules/*",
 			"C:\\wamp64\\www\\react-pairs-game\\src",
@@ -413,6 +409,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onClick={this.props",
+			"style",
+			" && ",
+			"eslint-plugin-react",
 			"restart",
 			"bestScores",
 			"_finishGame",
@@ -536,11 +536,7 @@
 			" =",
 			"span",
 			"gameInProgress",
-			"(",
-			"section",
-			"App",
-			"\"",
-			"_startStop"
+			"("
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,29 +559,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/Game.js",
+					"file": "src/components/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6935,
+						"buffer_size": 8042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1078,
-								1078
+								6917,
+								6917
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5870.0,
+						"translation.y": 5874.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -593,62 +589,31 @@
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
+					"file": "src/tests/App.test.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 5846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								383,
+								316
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/Cards.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 276.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
